@@ -27,23 +27,47 @@
 
       btn.addEventListener("click", function (evt) {
         evt.preventDefault();
-        const w = parseInt(x.value) + parseInt(y.value);
-        z.innerHTML = w;
+        const x1 = parseInt(x.value) * 0;
+        const y1 = parseInt(y.value) * 0;
+        if (x1 == 0 && y1 == 0) {
+          const w = parseInt(x.value) + parseInt(y.value);
+          z.innerHTML = w;
+        } else {
+          z.innerHTML = "Podaj liczby, a nie tekst";
+        }
       });
       btn1.addEventListener("click", function (evt) {
         evt.preventDefault();
-        const wy = parseInt(x.value) - parseInt(y.value);
-        z.innerHTML = wy;
+        const x1 = parseInt(x.value) * 0;
+        const y1 = parseInt(y.value) * 0;
+        if (x1 == 0 && y1 == 0) {
+          const wy = parseInt(x.value) - parseInt(y.value);
+          z.innerHTML = wy;
+        } else {
+          z.innerHTML = "Podaj liczby, a nie tekst";
+        }
       });
       btn2.addEventListener("click", function (evt) {
         evt.preventDefault();
-        const wyn = parseInt(x.value) * parseInt(y.value);
-        z.innerHTML = wyn;
+        const x1 = parseInt(x.value) * 0;
+        const y1 = parseInt(y.value) * 0;
+        if (x1 == 0 && y1 == 0) {
+          const wyn = parseInt(x.value) * parseInt(y.value);
+          z.innerHTML = wyn;
+        } else {
+          z.innerHTML = "Podaj liczby, a nie tekst";
+        }
       });
       btn3.addEventListener("click", function (evt) {
         evt.preventDefault();
-        const wyni = parseInt(x.value) / parseInt(y.value);
-        z.innerHTML = wyni;
+        const x1 = parseInt(x.value) * 0;
+        const y1 = parseInt(y.value) * 0;
+        if (x1 == 0 && y1 == 0) {
+          const wyni = parseInt(x.value) / parseInt(y.value);
+          z.innerHTML = wyni;
+        } else {
+          z.innerHTML = "Podaj liczby, a nie tekst";
+        }
       });
     </script>
   </body>
